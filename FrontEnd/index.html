@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="tui-bg-blue-black">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- TuiCss -->
+    <link rel="stylesheet" href="tui/tuicss.min.css"/>
+    <script src="tui/tuicss.min.js"></script>
+    
+    <!-- Local Files -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="tui-window" id="window">
+        <fieldset class="tui-fieldset">
+            <legend class="center">Form</legend>
+            <form>
+                <div class="input_wrapper">
+                    <label>Name :</label>
+                    <input class="tui-input" type="text" name="name" id="name">
+                </div>
+                <div class="input_wrapper">
+                    <label>Email:</label>
+                    <input class="tui-input" type="email" name="email" id="email">
+                </div>
+                <div class="input_wrapper">
+                    <input class="tui-button" style="display: block; margin: 0 auto;" value="Send PDF" id="submitBtn">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
+
+
